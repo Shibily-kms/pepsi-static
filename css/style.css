@@ -1,0 +1,43 @@
+:root {
+    --color-blue: #0065c3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'avenir-next', Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+
+.btn-style {
+    color: white;
+    padding: 5px 25px 3px 25px;
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: white solid 2px;
+    background: none;
+}
+
+.btn-style:hover {
+    color: var(--color-blue);
+    background-color: white;
+}
+
+/* .reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal .active {
+    opacity: 1 !important; 
+
+} */

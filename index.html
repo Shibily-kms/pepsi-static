@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepsi.com</title>
+  <link rel="shortcut icon" href="./images/icons/logo-large.png" type="image/x-icon">
+
+  <!-- Boostrap links -->
+  <!-- CSS  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/animation.css">
+
+  <!-- Javasript -->
+  <script src="./javascript/index.js"></script>
+
+  <!-- Boostrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="menu">
+      <div class="nav-logo ">
+        <img src="./images/icons/logo-large.png" alt="logo">
+      </div>
+      <div class="nav-drop">
+        <p>VIEW PRODUCTS <i class="bi bi-chevron-down"></i></p>
+      </div>
+      <div id="nav-item" class="nav-item ">
+        <div class="item">
+          <li>WHAT'S NEW</li>
+          <li>NEWSLETTER</li>
+          <li>CONTACT US</li>
+        </div>
+
+        <button class="btn-style">BUY PEPSI PRODUCTS</button>
+
+      </div>
+      <div class="menu-icon">
+        <img id="menu-icon" src="./images/icons/menu.png" onclick="showMenu()" alt="menu">
+        <img id="menu-hide-icon" src="./images/icons/close.png" onclick="hideMenu()" alt="menu">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section One -->
+  <section class=" section-one px-5 px-md-5  text-center text-light">
+    <div class="container px-0 px-lg-5">
+      <div class="row pt-5 pb-3 px-0 px-lg-5  ">
+        <div class="col-12 col-md-5 order-2 order-md-1 justify-content-md-center ">
+          <img class=" bottil " src="./images/pepsi/Nitro_Pepsi_CAN_Glass@3x.png" alt="">
+        </div>
+        <div class="col-12 col-md-7 content   order-1 order-md-2 align-content-center">
+          <img class="content-img" src="./images/contant/Nitro_Logo@3x.png" alt="">
+          <h2 class="my-4">SMOOTH, CREAMY, DELICIOUS</h2>
+          <button class="btn-style">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Two -->
+  <section class="section-two ">
+    <div class="container  px-md-5">
+      <div class="row pt-5 px-5 px-sm-0  px-lg-5 ">
+        <div class="col-12 col-sm-8 order-1 order-sm-2 order-md-1 px-5   content  pt-5 reveal fly-in-left">
+          <img src="./images/contant/PZS-headline.png" alt="">
+          <div class="d-flex w-100 justify-content-center">
+            <div class="play-div w-50 mt-4 position-relative">
+              <img src="./images/bg/PZS-video-placeholder.png" alt="">
+              <div class="position-absolute  text-center ">
+                <i class="bi bi-play-circle "></i>
+                <p>MAN CAVE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-4 order-2 order-sm-1 mt-5 mt-sm-0 px-5 px-sm-0 order-md-2 bottil-div reveal fly-in-right">
+          <img class="bottil" src="./images/pepsi/can-pzs.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Three -->
+  <section class="section-three">
+    <div class="row g-0">
+      <div class="col-12 col-md-4 px-4 order-2 order-md-1  text-center text-light">
+        <div class="col-12">
+          <div class="play-div  mt-4 position-relative">
+            <img src="./images/bg/Thumbnail_2.jpg" width="100%" alt="">
+            <div class="position-absolute  text-center ">
+              <i class="bi bi-play-circle "></i>
+              <p>WATCH NOW</p>
+            </div>
+          </div>
+          <div class="col-12 bg-primary">
+            <p class="py-1">BETTER WITH PEPSI | RIBS</p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="play-div  mt-4 position-relative">
+            <img src="./images/bg/Thumbnail.jpg" width="100%" alt="">
+            <div class="position-absolute  text-center ">
+              <i class="bi bi-play-circle "></i>
+              <p>WATCH NOW</p>
+            </div>
+          </div>
+          <div class="col-12 bg-primary ">
+            <p class="py-1">BETTER WITH PEPSI | NACHOS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 order-1 order-md-2 position-relative">
+        <img class="position-absolute d-none d-md-block" src="./images/contant/tag-line@3x.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section Four -->
+  <section class="section-four ">
+
+    <div id="s4p-1" class="picher-2 ">
+      <img src="./images/bg/bg-2-desktop@3x (1).png" alt="">
+    </div>
+    <div id="s4p-2" class="picher-1 ">
+      <img src="./images/bg/bg-1-desktop@3x.png" alt="">
+    </div>
+    <!--  -->
+    <div id="s4p-4" class="picher-1 ">
+      <img src="./images/bg/bg-1-mobile@3x.png" alt="">
+    </div>
+    <div id="s4p-3" class="picher-2 ">
+      <img src="./images/bg/bg-3-tablet@3x.png" alt="">
+    </div>
+
+    <!--  -->
+    <div class="content ps-5 ">
+      <div class="title py-5">
+        <img width="100%" src="./images/contant/headline@3x.png" alt="">
+
+        <div class="col-9 mt-2">
+          <div class="play-div mt-4 position-relative">
+            <img width="100%" src="./images/bg/PZS-video-placeholder.png" alt="">
+            <div class="position-absolute  text-center ">
+              <i class="bi bi-play-circle "></i>
+              <p>MAN CAVE</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-3 d-none d-lg-block">
+          <img class="w-100" src="./images/contant/twill@3x.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Section Five -->
+
+  <section class="section-five" style="background-color: black;">
+    <video class="w-100" src="./video/PepsiWildCherry.Copier.15.mp4" autoplay loop></video>
+
+  </section>
+
+  <!-- Section Six -->
+
+  <section class="section-six" style="background-color: red;">
+    <div class="row pt-0 pt-md-5 px-5 px-md-0">
+      <div class="col-12 col-md-6 order-2 order-md-1 px-5 px-md-0 d-flex align-items-center">
+        <img src="./images/pepsi/twil-can.png" alt="">
+      </div>
+      <div class="col-12 col-md-6 order-1 order-md-2 px-5 px-md-0 d-flex d-md-block justify-content-center ">
+        <img src="./images/contant/twil-header-dt.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Seven -->
+  <section class="section-seven text-center text-md-start">
+    <div class="container">
+      <div class="row px-5 px-md-0 align-items-center">
+        <div class="col-12 col-md-6 order-2 order-md-1 ">
+          <h1>ALL YOUR<br>
+            FAVORITE FLAVORS.<br>
+            ALL RIGHT HERE.</h1>
+          <p>Pepsi. Diet Pepsi. Pepsi Zero Sugar. The gang’s all here. Compare flavors, get nutritional facts and check
+            out
+            ingredients for all our Pepsi products.</p>
+          <button class="btn-style ">VIEW PRODUCTS</button>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2">
+          <img class="w-100" src="./images/pepsi/promotion1-hero_v3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section eight -->
+  <section class="section-eight">
+    <div class="container text-center">
+      <div class="row mt-3">
+        <div class="col-12">
+          <h1 class="">STAY ON THE PULSE. FOLLOW PEPSI.</h1>
+        </div>
+      </div>
+      <div class="image-div ">
+        <div class="position-relative">
+          <img class="w-100" src="./images/thamb/social-twitter.png" alt="">
+          <i class="bi bi-twitter position-absolute"></i>
+        </div>
+        <div class="position-relative">
+          <img class="w-100" src="./images/thamb/social-facebook.png" alt="">
+          <i class="bi bi-facebook position-absolute"></i>
+        </div>
+        <div class="position-relative">
+          <img class="w-100" src="./images/thamb/social-instagram.png" alt="">
+          <i class="bi bi-instagram position-absolute"></i>
+        </div>
+        <div class="position-relative">
+          <img class="w-100" src="./images/thamb/social-youtube.png" alt="">
+          <i class="bi bi-youtube position-absolute"></i>
+        </div>
+        <div class="position-relative">
+          <img class="w-100" src="./images/thamb/social-tiktok.png" alt="">
+          <i class="bi bi-tiktok position-absolute"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="text-light text-center text-lg-start">
+    <div class="row px-5 py-0 py-lg-5 d-flex align-items-center">
+      <div class="col-12 col-lg-2 nav-logo d-flex justify-content-center ps-5">
+
+        <img src="./images/icons/logo-large.png" alt="logo">
+
+      </div>
+      <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <p>CONTACT US</p>
+            <p>TERMS & CONDITIONS</p>
+            <p>PRIVACY POLICY</p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <p>COPYRIGHT</p>
+            <p>PRODUCT FACTS</p>
+            <p>STORE LOCATOR</p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <p>SERVE PEPSI</p>
+            <p>ABOUT OUR ADS</p>
+            <p>CAREERS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+        <button class="btn-style">SUBSCRIBE TO NEWSLETTER</button>
+        <div class="col-12 py-3">
+          <i class="bi bi-twitter "></i>
+          <i class="bi bi-instagram "></i>
+          <i class="bi bi-youtube "></i>
+          <i class="bi bi-facebook "></i>
+          <i class="bi bi-tiktok "></i>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>

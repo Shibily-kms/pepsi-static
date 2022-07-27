@@ -1,0 +1,361 @@
+/* Navbar */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+.menu{
+    background-color: var(--color-blue);
+    color: white;
+    font-size: 13px;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.nav-logo {
+    z-index: 1;
+}
+.nav-logo img{
+    width: 60px;
+    margin-right: 25px;
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+}
+.menu-icon{
+    z-index: 1;
+}
+#menu-icon{
+    display: none;
+    
+  
+}
+#menu-hide-icon {
+    display: none;
+    
+   
+}
+.menu .menu-icon img{
+    width: 30px;
+}
+.menu .nav-item{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu .nav-item .item{
+    display: flex;
+}
+.menu p{
+    width:max-content;
+    margin: 0;
+}
+.menu p, .menu li{
+    padding: 0 20px 0 20px;
+}
+
+.nav-logo img:hover{
+    transform: rotate(360deg ) ;
+    -webkit-transform: rotate(360deg ) ;
+    -moz-transform: rotate(360deg ) ;
+    -ms-transform: rotate(360deg ) ;
+    -o-transform: rotate(360deg ) ;
+}
+
+/* Section One */
+.section-one{
+    background: url(../images/bg/Desktop_Background@3x.png) no-repeat;
+    background-size: cover;
+    padding: 0 100px 0 100px;
+    margin-top: 90px;
+    
+}
+.section-one .bottil{
+   width: 100%;
+}
+.section-one .content-img{
+    width: 100%;
+}
+.section-one .content {
+    padding-left: 100px;
+}
+
+/* Section Two */
+.section-two{
+    background: url(../images/bg/PZS-tile-background.png) no-repeat;
+    background-size: cover;
+    /* padding: 0 100px 0 100px; */
+    
+    
+}
+
+.section-two .play-div >div{
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: #004c94b9;
+   /*padding: 2px 5px 2px 5px;
+   */color: white;
+   height: 90px;
+   width: 100px;
+   cursor: pointer;
+
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+}
+.section-two .content {
+    padding-right: 50px;
+
+}
+.section-two .content img{
+    width: 100%;
+}
+.section-two .bottil{
+    width: 100%;
+}
+
+
+.active .fly-in-left {
+    animation-name: fly-in-left;
+    animation-duration: .9s;
+}
+
+.active .fly-in-right {
+    animation-name: fly-in-right;
+    animation-duration: .9s;
+}
+
+/* Section Three */
+.section-three{
+    background-color: #004f99;
+}
+.section-three>div>div:last-child{
+    background: url(../images/bg/PEP_BWP_D@2x.jpg) center no-repeat;
+    background-size: cover;
+ 
+}
+ .play-div p{
+    font-size: 14px;
+}
+.play-div i{
+    font-size: 45px;
+}
+
+.section-three .play-div >div{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #004c94b9;
+    /*padding: 2px 5px 2px 5px;
+    */color: white;
+    height: 90px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 14px;
+ 
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+ }
+
+ .section-three>div>div:last-child>img{
+   width: 500px;
+   right: 0;
+   bottom: 20px;
+   
+ 
+}
+
+
+/* Section Four */
+.section-four{
+    background-color: var(--color-blue);
+    overflow: hidden;
+    position: relative;
+  
+  
+
+}
+
+.section-four .picher-1{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+   
+   
+    /* background-color: violet; */
+  
+    
+}
+
+.section-four .picher-1 img{
+    height: 100%;
+}
+
+.section-four .picher-2{
+    position: absolute;
+    width: 80%;
+    /* height: 80%; */
+    bottom: 0;
+    left: 0;
+    /* background-color: red; */
+
+}
+.section-four .picher-2 img{
+    width: 100%;
+}
+
+
+.section-four .title{
+    width: 29%;
+    z-index: 5;
+    height: 100%;
+    position: relative;
+
+    
+    
+}
+#s4p-3{
+    display: none;
+}
+#s4p-4  {
+    display: none;
+}
+
+.section-four .play-div >div{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #004c94b9;
+    color: white;
+    height: 90px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 14px;
+
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+ }
+
+ /* Section Six */
+.section-six{
+    width: 100%;
+    background: url(../images/bg/twil-bg.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-six img{
+    width: 100%;
+}
+
+.section-six>div>div:last-child{
+
+    padding-top: 10%;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    
+}
+.section-six>div>div:last-child>img{
+    width: 70%;
+}
+
+/* Section Seven */
+.section-seven{
+    background-color: var(--color-blue);
+    color: white;
+   
+}
+.section-seven h1{
+    font-family: "fontspring";
+    font-size: 65px;
+}
+.section-seven p{
+    font-family: 'sofiapro';
+
+}
+.section-seven button{
+    font-size: 13px;
+
+}
+.section-seven .row{
+    padding: 100px 0 100px 0;
+}
+
+/* Section Eight */
+.section-eight{
+    width: 100%;
+}
+.section-eight .image-div{
+    display: flex;
+}
+.section-eight .image-div div{
+    width: 100%;
+    overflow: hidden;
+}
+.section-eight h1{
+    font-family: "fontspring";
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.section-eight i{
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    bottom: 5px;
+}
+.section-eight img{
+    transition: transform .3s ease;
+    -webkit-transition: transform .3s ease;
+    -moz-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    -o-transition: transform .3s ease;
+}
+.section-eight img:hover{
+    transform: rotate(10deg) scale(1.2,1.2);
+    -webkit-transform: rotate(10deg) scale(1.2,1.2);
+    -moz-transform: rotate(10deg) scale(1.2,1.2);
+    -ms-transform: rotate(10deg) scale(1.2,1.2);
+    -o-transform: rotate(10deg) scale(1.2,1.2);
+}
+
+/* Footer */
+footer{
+    background-color: var(--color-blue);
+    padding: 50px 0 50px 0;
+    overflow: hidden;
+}
+footer p{
+    margin: 0;
+    font-size: 14px;
+}
+footer i{
+    font-size: 25px;
+    color: white;
+    padding: 0 13px 0 13px;
+}
+footer .nav-logo img{
+    width: 90px;
+    margin-right: 25px;
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+}
