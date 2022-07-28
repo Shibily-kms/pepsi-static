@@ -94,7 +94,7 @@ nav{
 .section-two{
     background: url(../images/bg/PZS-tile-background.png) no-repeat;
     background-size: cover;
-    /* padding: 0 100px 0 100px; */
+
     
     
 }
@@ -104,8 +104,8 @@ nav{
    left: 50%;
    transform: translate(-50%,-50%);
    background-color: #004c94b9;
-   /*padding: 2px 5px 2px 5px;
-   */color: white;
+
+   color: white;
    height: 90px;
    width: 100px;
    cursor: pointer;
@@ -158,8 +158,7 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #004c94b9;
-    /*padding: 2px 5px 2px 5px;
-    */color: white;
+    color: white;
     height: 90px;
     width: 100px;
     cursor: pointer;
@@ -197,7 +196,7 @@ nav{
     right: 0;
    
    
-    /* background-color: violet; */
+
   
     
 }
@@ -209,10 +208,10 @@ nav{
 .section-four .picher-2{
     position: absolute;
     width: 80%;
-    /* height: 80%; */
+
     bottom: 0;
     left: 0;
-    /* background-color: red; */
+ 
 
 }
 .section-four .picher-2 img{
